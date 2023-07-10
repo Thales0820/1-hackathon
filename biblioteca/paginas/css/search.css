@@ -1,0 +1,33 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .search-button i {
+    margin-right: 5px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0066cc;
+  }
+  
